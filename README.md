@@ -3,3 +3,5 @@
 -This repo will have the interview preparation documents for DevOps Engineers.
 
 -It contains all the handwritten notes.
+
+-Q/A from different resources with highlights.
