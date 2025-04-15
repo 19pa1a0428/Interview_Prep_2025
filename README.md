@@ -5,3 +5,5 @@
 -It contains all the handwritten notes.
 
 -Q/A from different resources with highlights.
+
+-Docker notes will be updated soon.
