@@ -7,3 +7,5 @@
 -Q/A from different resources with highlights.
 
 -Docker notes will be updated soon.
+
+- May 1 --> Basic general netwroking topics (ports will be updated next or updated seperately).
