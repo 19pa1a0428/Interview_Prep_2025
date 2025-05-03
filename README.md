@@ -9,3 +9,4 @@
 -Docker notes will be updated soon.
 
 - May 1 --> Basic general netwroking topics (ports will be updated next or updated seperately).
+- May 2 --> Networking ports has been updated.
