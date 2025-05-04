@@ -48,3 +48,208 @@ Kubernetes
 28. What is liveness and readiness probe? Why we need them?
 29. Have you worked on kubernetes monitoring? Which tools you have used?
 30. Can we deploy a pod on particular node?
+
+
+--------------------------------------------------------------------------------------------------------------------------------------
+
+
+MAJOR TOPICS FOR DEVOPS
+
+
+🔧 1. DevOps Fundamentals
+CI/CD (Continuous Integration & Continuous Deployment)
+Infrastructure as Code (IaC)
+Configuration Management
+Monitoring and Logging
+Containers and Orchestration
+Agile & DevOps culture (Collaboration, Automation, Feedback loops)
+
+
+
+☁️ 2. Cloud Providers
+Focus on at least one, but know basics of all:
+AWS: EC2, S3, IAM, VPC, CloudWatch, CodePipeline, ECS/EKS, Lambda, Databases
+Azure: VMs, Blob Storage, Azure DevOps, AKS,Database
+GCP: Compute Engine, GKE, Cloud Build, Stackdriver, database
+
+
+🛠️ 3. CI/CD Tools
+Jenkins (pipelines, declarative syntax, plugins)
+GitHub Actions
+GitLab CI/CD
+CircleCI, Travis CI, TeamCity
+
+Key concepts:
+Pipelines: Build, Test, Deploy stages
+Artifacts
+Rollback and Canary deployments
+Webhooks & Triggers
+
+
+
+📦 4. Version Control Systems
+Git (branches, merge, rebase, pull requests, merge conflicts)
+Git workflows: GitFlow, Trunk-based development
+
+
+📁 5. Configuration Management Tools
+Ansible
+Chef
+Puppet
+SaltStack
+
+Key concepts:
+Playbooks / Cookbooks
+Idempotency
+Inventory management
+-Components
+
+
+🔍 6. Monitoring & Logging
+Prometheus & Grafana
+ELK Stack (Elasticsearch, Logstash, Kibana)
+Datadog
+Splunk
+Cloud-native tools (AWS CloudWatch, Azure Monitor)
+
+Topics:
+Metrics, Alerts, Dashboards
+Logs vs Metrics vs Traces
+Distributed tracing (OpenTelemetry, Jaeger)
+
+
+
+🐳 7. Containers & Orchestration
+Docker (images, containers, volumes, networking, Dockerfile)
+Kubernetes (pods, deployments, services, config maps, secrets)
+Helm (chart packaging)
+kubectl commands
+YAML manifests
+Docker Compose
+
+
+
+🧱 8. Infrastructure as Code (IaC)
+Terraform (HCL syntax, modules, state, providers)
+CloudFormation(if AWS-focused)
+Pulumi (code-first IaC)
+
+Concepts:
+Provisioning infrastructure
+Immutable infrastructure
+Remote state management
+
+
+🔐 9. Security & Compliance
+Secrets Management: Vault, AWS Secrets Manager
+DevSecOps: Shift-left security
+IAM (permissions, roles, policies)
+Static/Dynamic Analysis Tools (SAST, DAST)
+
+
+📚 10. Soft Skills & Process
+Agile/Scrum basics
+Communication & Collaboration
+Incident management (On-call, Root cause analysis)
+Troubleshooting & Debugging mindset
+
+
+🐧 11. Linux Topics for DevOps
+
+1. Basic Linux Commands
+ls, cd, pwd, mkdir, rm, cp, mv
+touch, cat, less, head, tail
+chmod, chown, stat
+df, du, top, htop, free, uptime
+
+2. Process Management
+ps, top, htop
+kill, killall, pkill
+Background jobs: &, jobs, fg, bg, nohup
+
+3. File & Text Manipulation
+grep, awk, sed, cut, sort, uniq, tr, wc
+find, xargs, tee, diff
+
+
+
+5. Package Management
+Debian-based: apt, dpkg
+RHEL-based: yum, dnf, rpm
+
+6. Networking Commands
+ifconfig, ip, ping, netstat, ss, traceroute
+curl, wget, telnet, nc (netcat), dig, nslookup
+iptables basics (firewall rules)
+
+7. User & Group Management
+useradd, usermod, passwd, groupadd
+id, whoami, groups, /etc/passwd, /etc/shadow
+
+8. System Monitoring & Logs
+System logs: `/var/log/`
+`journalctl`, `dmesg`
+`uptime`, `vmstat`, `iostat`
+
+9. Crontab & Scheduling
+`crontab -e`, `crontab -l`
+Syntax of cron jobs
+`at` and `batch`
+
+10. Disk & Filesystem
+mount, umount
+lsblk, fdisk, blkid
+df, du, fsck
+
+
+
+🧾 12.Shell Scripting Topics
+
+1.Scripting Basics
+Shebang (#!/bin/bash`)
+Variables and quoting (`$VAR`, `"`, `'`, ```)
+Reading user input: `read`
+Script arguments: `$1`, `$2`, `$#`, `$@`
+
+2. Conditional Statements
+if, else, elif
+case statements
+Test operators: `-eq`, `-ne`, `-lt`, `-f`, `-d`, `-z`, `==`, `!=`
+
+3. Loops
+for, while, until
+break, continue
+
+4. Functions
+Defining and calling functions
+Returning values
+Local vs global variables
+
+5. Error Handling
+Exit codes: `$?`
+set -e, set -u, set -o pipefail
+trap command for cleanup
+
+6.Working with Files
+Reading/writing files
+Looping through lines in a file
+Searching and modifying text
+
+7. Arrays and Associative Arrays
+Basic array usage: `arr=(a b c)`
+Accessing: `${arr[0]}`, `${#arr[@]}`
+
+8. Useful Commands in Scripts
+grep, awk, sed, cut, tr, xargs
+curl, wget, scp, rsync
+Logging and output formatting
+
+9. Debugging Scripts
+`bash -x script.sh`
+`set -x` and `set +x`
+
+10. Practical Scripts (for practice)
+Log file rotation
+Disk usage alerts
+Service health check script (ping, curl)
+Automated backups using `rsync` or `tar`
