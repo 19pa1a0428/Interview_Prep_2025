@@ -1,3 +1,5 @@
+#Degree of an Array
+
 from collections import defaultdict, Counter
 class Solution:
     def findShortestSubArray(self, nums: List[int]) -> int:
