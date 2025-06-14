@@ -1,5 +1,4 @@
 #Relative Ranks
-
 class Solution:
     def findRelativeRanks(self, score: List[int]) -> List[str]:
         sorted_score = sorted(score, reverse=True)
