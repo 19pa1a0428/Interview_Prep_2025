@@ -14,7 +14,7 @@
 
 -Ai models
 
--Linkedin optimization
+-Linkedin optimization.
 
 
 
