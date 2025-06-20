@@ -10,7 +10,7 @@
 
 -Leetcode solutions in python.
 
--Latest AI tools
+-Latest AI tools.
 
 -Ai models
 
