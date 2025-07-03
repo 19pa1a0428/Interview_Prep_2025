@@ -1,6 +1,6 @@
 # Interview_Prep_2025
 
--This repo will have the interview preparation documents for DevOps Engineers.
+-This repo will have the interview preparation documents for DevOps & cloud Engineers.
 
 -It contains all the handwritten notes.
 
