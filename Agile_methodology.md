@@ -4,7 +4,7 @@
 - **Individuals & interactions** > Processes/tools  
 - **Working software** > Comprehensive documentation  
 - **Customer collaboration** > Contract negotiation  
-- **Responding to change** > Following a plan
+- **Responding to change** > Following a plan.
 
 ![image](https://github.com/user-attachments/assets/ae7a0913-d787-4c5b-88e7-3bde7a2a6c82)
 
