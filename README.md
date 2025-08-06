@@ -17,5 +17,10 @@
 -Linkedin optimization.
 
 
+--> Ai tools
+
+* Syntx ai powered code editor in the vs code. That can help in building the code very interactive in every point.
+
+
 
 
